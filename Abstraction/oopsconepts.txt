@@ -1,0 +1,61 @@
+
+1. DataHidding => is the proceess of hidding data accessing from unauthorized people .
+- it validates the data and gives access to authorised people only.
+
+-- It is making all class memebers private so that when anyone try to modifiy thn needs to verify himselft that he is authorised person.
+
+-- If we make them public then simply all people are accessing directly in public without even authorized.
+
+let us see simple bank app and user trying to get balance value but we asks password and name to get balance
+-- for wrong user information we return -1 and
+for actual balance if is right.
+
+-------------------------------------------------------
+
+2. Abstraction : simply is hidding implementation detials of calss.
+
+-- java uses abstract and interface classes to implement abstracting methods.
+
+-- abstract calssa -- as the name sugges abstracts value likemethod -- or it is incomplete method impelmentation . 
+
+-- is good choice when we have common things for subclaaess and some different things
+but it abstract claaess are not goid choice for complete abstraction or when there is not common btween child claaaes and needs only interface declaration.
+
+
+-- for interface is complete abstraction means 
+all methods should be required to implement by the subclaasess but it have some other options
+like static methods and default methods 
+
+-- you can make private  to make sharebale data between methos and default method is valaible all subcalsses of that interface.
+
+Imp=> we use abstract classess to give base to all subclasses and then themselves add all other remaiing fucntionality
+
+
+=> for Interface it is only for high level specifications without any implementation and commonly used for API .
+
+
+
+First pillar of Abstraction==>
+abstraction --> is act of presenting the essential features without including detials or explainations.
+
+anology for abstraction {
+
+  think like whtaspp we daily use to send data between uses, can be image, file or any other type.
+
+  but as user we dont know any or how that does is sent 
+  like we can see behind the scene implementation so 
+  sends the data.
+  and we dont need. that is called abstraction.
+
+}
+
+- in java we can achieve abstraction using Interface and abstract claaess unlike data hiding which is hidding accessing members like making private to all your fields which allows only authenticated people to access. 
+
+examples of fist Piller --
+1. for interface we are using mobile and apple will implement that mobile by adding it's fucntionality.
+-- for interface we do use "implement" means we are going to come our own complete impelmention 
+
+rather than Abstract --means it is incomplete means we are using "extend" to extend those incomplete fucntionality .
+
+-- in this case we can put concerate impelmentation of methods isnide abstract classes but only if that concerate is common for all other possible subcalsses.
+

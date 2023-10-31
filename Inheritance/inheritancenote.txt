@@ -1,0 +1,52 @@
+
+Inheritance is the fallowing.
+
+1. Inheritance {IS-A relationship}
+2. Inheritance {HAS-A relationship}
+2. difference between {HAS_A} and {ISA} relationship.
+
+
+Inheritance is ability of one calss to get and inherti all properties of anther class.
+
+IOException Inherited from Exception 
+so IOException is childClass and Exception is child class.
+
+one the relationship form is Speciallization means that
+an entity has all other propertiy of another entity 
+and with thier speicifc properties.
+
+example :
+Employee is base or parent calss of all employees and has all properites that common for all employes but every employee has his own attrabutes and behaviouris.
+
+
+using arrow pointed to source to show that is subclass has extended the parent Classs.
+
+types of Inheritance are :
+
+1. Single Inheritance --> is the one class extends another class.
+
+{one classs - child class}----extends->{ParenClass.}
+2. mulitlevel Inheritance
+{child class }-----extends --->{parentClass}----extends-->{parent class}
+
+
+3. multiple Inheritance --> one class has more than one parent 
+and java does not allow because normal inheritance has implementation of those method and if there is methods with name in those clasess there is higher changess of runtime exection for confusion of whcih method for which class is call and belong  and that iswhy since they dont declarion i does not allow. 
+while interface java allows because in interface all methods are public asbtract by default regardless of weather you put abstract keyword before it or not and at end we have implemention in child class {caller} and if we have one that is enogh for both classes becuase is name and same with same signature is not allow but you can overload.
+
+
+
+4. Hierrihcal Inheritance is the one when one parent and many childreeen is called Hierrihcal Inheritance.
+
+{Developer}--> {Employee}
+{Manager }-> {Employee}
+{Techincal person}-->{Employee}
+{Tech recuiter}->{Employee}
+
+5. Hybrid Inheritance. multiple inheritance +mulitlevel.
+means having calss that mulitple inheritance and another calss extends that calss and with  subclassess but what makes everythig  makes impossible is that first mulitple inheritance is impossible.
+
+
+6. Cylic Inheritance --means one class inherticas another class and same inherits another one.
+-- two claess inhericeseach other
+

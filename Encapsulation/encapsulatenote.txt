@@ -1,0 +1,17 @@
+
+Encapsualtion is the grouping up data members and member fucntions in a single unit is called encapsulation.
+
+it is data hidding and abstraction togther because it hides information of both members and fucntions so it always solves and provides interface for what to do rather than how to do.
+
+example API most abi are interfaces for thier Implementation but when you are using them to implement they give ready made methos and fucntions which you call and access them but we dont know how they do and pay inas of payment method.
+
+encapsulation is class you call and you dont know its own Implementation and how does it handle the data.
+
+
+let us take simple account Class. 
+ so we have private balance variable and it private
+ because we have to keep others to access i means other implments or users later on to make sure ti si validated whenever is to chagne the balance.
+
+ I have set and get for balance to and we can do some stuff of implementation.
+
+ so if every memeber of variables of class in private mood is called tighly encapsulated.
